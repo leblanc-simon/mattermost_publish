@@ -1,0 +1,6 @@
+description="Allow to publish new link into your Mattermost channel"
+parameters="MATTERMOST_HOOK_URL;MATTERMOST_CHANNEL;MATTERMOST_USER"
+parameters.MATTERMOST_HOOK_URL="URL of the Webhook"
+parameters.MATTERMOST_CHANNEL="Channel where publish the link (if empty, it's the default webhook channel)"
+parameters.MATTERMOST_USER="User to use to publish the link  (if empty, it's the default webhook channel)"
+
